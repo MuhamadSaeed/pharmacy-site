@@ -1,0 +1,41 @@
+:root {
+  --main-color: #d4ae7d;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btncolr {
+  background-color: var(--main-color) !important;
+  color: WHITE !important;
+  outline: none;
+  border: var(--main-color) !important;
+}
+.link-border {
+  border: 2px solid var(--main-color) !important;
+  border-radius: 6px;
+}
+.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: white;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.page-link:focus {
+  z-index: 3;
+  color: white;
+  background-color: var(--main-color);
+  outline: 0;
+  box-shadow: var(--main-color);
+}
+.page-link:hover {
+  z-index: 2;
+  color: black;
+  background-color: var(--bs-pagination-hover-bg);
+  border-color: var(--bs-pagination-hover-border-color);
+}
+.page-link {
+  color: black;
+}

@@ -1,0 +1,19 @@
+.swiper-button-prev, .swiper-button-next {
+    color: var(--main-color);
+}
+.swiper-pagination-bullet {
+    background-color: var(--main-color);
+}
+.textAl {
+    background-color: var(--main-color);
+}
+.arabic-text {
+    direction: rtl;
+    text-align: right;
+}
+/* @media (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+} */
