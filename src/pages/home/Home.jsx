@@ -112,7 +112,7 @@ function Home() {
             {products.filter(product => product.category === category).map(product => (
                 <SwiperSlide key={product.id}>
                   <div className="card">
-                    <Link to={`/product/${product.id}`} style={{margin: "auto"}}>
+                    <Link to={`/product/${product.id}`} style={{margin: "auto", padding: "20px"}}>
                       <img src={product.image} style={{maxHeight: "250px", maxWidth: "250px"}} className="card-img-top" alt={product.name} />
                     </Link>
                     <div className="card-body text-center">
